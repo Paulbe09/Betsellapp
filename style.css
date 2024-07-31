@@ -1,0 +1,21 @@
+body{
+    margin:0px;
+}
+
+header{
+    background-color: orangered;
+}
+
+footer{
+    background-color: orangered;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.logo_header{
+    width:150px;
+}
+.logo_footer{
+    width:75px;
+}
