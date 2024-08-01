@@ -4,7 +4,8 @@ body {
 
 header {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    
 
 }
 
@@ -12,8 +13,9 @@ header {
     background-color: #FF8000;
     width: 200px;
     margin: 16px;
+    margin-right: 0;
     border-radius: 10px;
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
 }
 
@@ -23,6 +25,11 @@ header {
 
 .logo_header {
     width: 48px;
+}
+
+.shoppingcart{
+    height: 48px;
+    margin:16px;
 }
 
 footer {
