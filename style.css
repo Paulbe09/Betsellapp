@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    
+
 }
 
 header {
@@ -10,10 +10,13 @@ header {
     box-shadow: 5px 10px 18px #888888;
 }
 
-h1{
+h1 {
     margin: 0;
     padding-right: 80px;
-    
+}
+
+h2 {
+    margin: 0;
 }
 
 
@@ -33,9 +36,9 @@ h1{
     height: 48px;
 }
 
-.shoppingcart{
+.shoppingcart {
     height: 48px;
-    margin:16px;
+    margin: 16px;
 }
 
 footer {
@@ -45,9 +48,19 @@ footer {
 
 }
 
-
 .logo_footer {
     width: 75px;
+}
+
+.pizza {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .img_pizza {
@@ -56,19 +69,17 @@ footer {
 
 }
 
-.pizza_img{
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 0;
-    padding-right: 0;
+
+.pizza_card {
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    
+    justify-content: space-between;
+    width: 919px;
+    padding: 24px;
+
 }
 
-.pizza_table{
+.mar {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    text-align: start;
 }
-    
