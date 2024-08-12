@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    
 }
 
 header {
@@ -11,24 +12,25 @@ header {
 
 h1{
     margin: 0;
+    padding-right: 80px;
+    
 }
+
 
 .head_imgs {
     background-color: #FF8000;
-    width: 200px;
+    width: 150px;
     margin: 16px;
     margin-right: 0;
     border-radius: 10px;
     border-width: 1px;
     border-style: solid;
+    display: flex;
+    justify-content: space-around;
 }
 
 .svg_logo {
     height: 48px;
-}
-
-.logo_header {
-    width: 48px;
 }
 
 .shoppingcart{
@@ -54,10 +56,19 @@ footer {
 
 }
 
-.pizza{
-    padding: 24px;
+.pizza_img{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 0;
+    padding-right: 0;
     display: flex;
     align-items: center;
     flex-direction: column;
-    text-align: start;
+    
 }
+
+.pizza_table{
+    display: flex;
+    justify-content: space-around;
+}
+    
