@@ -73,6 +73,7 @@ footer {
 .pizza_card {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     width: 919px;
     padding: 24px;
 
@@ -82,4 +83,20 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: start;
+}
+
+.sal {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+input{
+    height: 16px;
+    width: 50px;
+}
+
+button{
+    height: 22px;
+
 }
