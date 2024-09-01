@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    background-color: #FF8000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 10px 18px #888888;
+    background-color: white;
+    margin-bottom: 24px;
+}
+
+section {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+}
+
+h1 {
+    margin: 0;
+    padding-right: 80px;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    height: 16px;
+    width: 50px;
+}
+
+button {
+    height: 22px;
+
+}

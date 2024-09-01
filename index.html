@@ -7,6 +7,7 @@
     <title>Bestellapp</title>
     <script src="./script.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="standart.css">
 </head>
 
 <body>
@@ -20,24 +21,70 @@
     </header>
 
 
-    <section class="pizza">
 
-        <img class="img_pizza" src="./img/pizza.jpg" alt="Pizza">
-
-        <div class="pizza_margherita">
-            <div class="margherita">
-                <h2>1. Pizza Margherita</h2>
-                <p>Käse, Tomatensauce</p>
-            </div>
-            <div class="mar_input">
-                <p>7,50€</p>
-                <button>-</button>
-                <input type="number">
-                <button>+</button>
-            </div>
+    <section class="pizza_margherita">
+        <div class="margherita">
+            <img class="img_pizza" src="./img/pizza-groß.jpg" alt="Pizza">
+            <table>
+                <tr class="head">
+                    <td>
+                        <h2>1. Pizza Margherita</h2>
+                    </td>
+                </tr>
+                <tr class="info">
+                    <td>
+                        <p>Käse, Tomatensauce</p>
+                    </td>
+                    <td>
+                        <p>7,50€</p>
+                    </td>
+                    <td>
+                        <button>-</button>
+                        <input type="number">
+                        <button>+</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="head">
+                        <h2>2. Pizza Salami</h2>
+                    </td>
+                </tr>
+                <tr class="info">
+                    <td>
+                        <p>Käse, Tomatensauce, Salami</p>
+                    </td>
+                    <td>
+                        <p>8,50€</p>
+                    </td>
+                    <td>
+                        <button>-</button>
+                        <input type="number">
+                        <button>+</button>
+                    </td>
+                </tr>
+                <tr class="head">
+                    <td>
+                        <h2>3. Pizza Speciale</h2>
+                    </td>
+                </tr>
+                <tr class="info">
+                    <td>
+                        <p>Käse, Tomatensauce, Schinken, Pilze</p>
+                    </td>
+                    <td>
+                        <p>10,50€</p>
+                    </td>
+                    <td>
+                        <button>-</button>
+                        <input type="number">
+                        <button>+</button>
+                    </td>
+                </tr>
+            </table>
         </div>
+    </section>
 
-        <div class="pizza_salami">
+    <!-- <div class="pizza_salami">
             <div class="salami">
                 <h2>2. Pizza Salami</h2>
                 <p>Käse, Tomatensauce, Salami</p>
@@ -48,21 +95,21 @@
                 <input type="number">
                 <button>+</button>
             </div>
-        </div>
-
-
-        
-    </section>
+        </div> -->
 
 
 
-    <section>
-        <footer>
-            <img class="logo_footer" src="./Logo/Logo.png" alt="BestellApp-Logo">
-            <a href="#">Impressum</a>
-            <a href="#">Datenschutz</a>
-        </footer>
-    </section>
+
+
+
+
+
+    <footer>
+        <img class="logo_footer" src="./Logo/Logo.png" alt="BestellApp-Logo">
+        <a href="#">Impressum</a>
+        <a href="#">Datenschutz</a>
+    </footer>
+
 
 </body>
 
