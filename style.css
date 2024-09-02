@@ -30,7 +30,7 @@ footer {
     width: 75px;
 }
 
-.img_pizza {
+.pizzaimg {
     object-position: center;
     height: 450px;
     width: auto;
@@ -38,17 +38,11 @@ footer {
 }
 
 
-.pizza_magherita {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-
-}
-
-.margherita {
+.pizza {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 24px;
 
 }
 
@@ -58,4 +52,66 @@ footer {
 
 .info{
     padding-bottom: 24px;
+}
+
+.price1{
+    padding-right: 45px;
+}
+
+.price2{
+    padding-right:100px;
+}
+
+.pastaimg {
+    object-position: center;
+    height: 450px;
+    width: auto;
+    object-fit: cover;
+}
+
+.pasta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 24px;
+
+}
+
+.price3{
+    padding-right: 35px;
+}
+
+.price4{
+    padding-right: 16px;
+}
+.price5{
+    padding-right: 270px;
+}
+
+.saladimg {
+    object-position: center;
+    height: 450px;
+    width: auto;
+    object-fit: cover;
+}
+
+.salad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 24px;
+
+}
+
+.price6{
+    padding-left: 42px;
+}
+
+.price7{
+    padding-right: 385px;
+}
+
+.price8{
+    padding-right: 222px;
 }
