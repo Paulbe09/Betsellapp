@@ -115,3 +115,9 @@ footer {
 .price8{
     padding-right: 222px;
 }
+
+.shopcart{
+    display: flex;
+    justify-content: flex-end;
+    display:none;
+}

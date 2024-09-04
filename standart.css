@@ -34,12 +34,13 @@ tr {
     justify-content: space-between;
 }
 
-input {
-    height: 16px;
+button {
+    border-radius: 100%;
+    height: 50px;
     width: 50px;
+    background-color: white;
 }
 
-button {
-    height: 22px;
-
+.orange{
+    background-color: #FF8000;
 }
