@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plus Minus Zähler</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Zähler</h1>
+<p id="counter">0</p>
+<button id="plusButton">+</button>
+<button id="minusButton">-</button>
+
+<script>
+    let count = 0;
+
+    const counterDisplay = document.getElementById('counter');
+    const plusButton = document.getElementById('plusButton');
+    const minusButton = document.getElementById('minusButton');
+
+    plusButton.addEventListener('click', () => {
+        count++;
+        counterDisplay.textContent = count;
+    });
+
+    minusButton.addEventListener('click', () => {
+        count--;
+        counterDisplay.textContent = count;
+    });
+</script>
+
+</body>
+</html>

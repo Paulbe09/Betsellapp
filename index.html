@@ -17,10 +17,14 @@
             <img class="svg_logo" src="./Logo/Bestell App- Logo.svg" alt="">
         </div>
         <h1>Speisekarte</h1>
-        <img class="shoppingcart" src="./img/shoppingcart.png" alt="Warenkorb">
+        <img onclick="loadShopcart('overlay')" class="shoppingcart" src="./img/shoppingcart.png" alt="Warenkorb">
     </header>
 
-        <div class="shopcart">hallo</div>
+        <div id="overlay">
+            <p>Ihre Bestellung</p>
+            <div id="marlist"></div>
+            <div id="sallist"></div>
+        </div>
 
         <div class="pizza">
             <img class="pizzaimg" src="./img/pizza-groß.jpg" alt="Pizza">
@@ -38,7 +42,8 @@
                         <p>9,00€</p>
                     </td>
                     <td>
-                        <button onclick="loadShopcart()">+</button>
+                        <button onclick="removeMargherita()">-</button>
+                        <button onclick="addMargherita()">+</button>
                     </td>
                 </tr>
                 <tr>
@@ -54,7 +59,8 @@
                         <p class="price1">11,50€</p>
                     </td>
                     <td>
-                        <button onclick="loadShopcart()">+</button>
+                        <button onclick="removeSalami()">-</button>
+                        <button onclick="addSalami()">+</button>
                     </td>
                 </tr>
                 <tr class="head">
@@ -70,6 +76,7 @@
                         <p class="price2">13,50€</p>
                     </td>
                     <td>
+                        <button>-</button>
                         <button onclick="loadShopcart()">+</button>
                     </td>
                 </tr>
@@ -92,6 +99,7 @@
                         <p class="price3">10,50€</p>
                     </td>
                     <td>
+                        <button class="orange">-</button>
                         <button onclick="loadShopcart()" class="orange">+</button>
                     </td>
                 </tr>
@@ -108,6 +116,7 @@
                         <p class="price4">12,50€</p>
                     </td>
                     <td>
+                        <button class="orange">-</button>
                         <button onclick="loadShopcart()" class="orange">+</button>
                     </td>
                 </tr>
@@ -124,6 +133,7 @@
                         <p class="price5">13,50€</p>
                     </td>
                     <td>
+                        <button class="orange">-</button>
                         <button onclick="loadShopcart()" class="orange">+</button>
                     </td>
                 </tr>
@@ -146,6 +156,7 @@
                         <p class="price6">7,00€</p>
                     </td>
                     <td>
+                        <button>-</button>
                         <button onclick="loadShopcart()">+</button>
                     </td>
                 </tr>
@@ -156,12 +167,13 @@
                 </tr>
                 <tr class="info">
                     <td>
-                        <p>Grüner Salat, Tomaten, Gurke, Eier, Kochschinken, Käse Thunfisch, Artischocken</p>
+                        <p>Grüner Salat, Tomaten, Gurke, Eier, Kochschinken,<br> Käse Thunfisch, Artischocken</p>
                     </td>
                     <td>
                         <p class="price7">11,00€</p>
                     </td>
                     <td>
+                        <button>-</button>
                         <button onclick="loadShopcart()">+</button>
                     </td>
                 </tr>
@@ -178,6 +190,7 @@
                         <p class="price8">13,00€</p>
                     </td>
                     <td>
+                        <button>-</button>
                         <button onclick="loadShopcart()">+</button>
                     </td>
                 </tr>

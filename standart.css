@@ -44,3 +44,7 @@ button {
 .orange{
     background-color: #FF8000;
 }
+
+.d-none{
+    display: none;
+}
